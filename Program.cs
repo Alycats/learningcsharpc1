@@ -3,20 +3,40 @@ class Program
 {
     static void Main(string[] args)
     {
-string username;
-int responsetwo;
-int response;
+        conditions();
+        Console.ReadKey(true);
+    }
+
+
+    static void conditions()
+    {
+        //check if x is larger than y
+        int x = 20;
+        int y = 2;
+
+        if (x > y)
+        {
+            Console.WriteLine("x is greater than y");
+        }
+
+    }
+
+
+
+    static void BirthdayAge()
+    {
+        string name;
+        string birthdayTHisYear;
+        int yearOfBirth;
 
 
 
         Console.WriteLine("What is your name?");
-        username = Console.ReadLine();
+        name = Console.ReadLine();
         Console.WriteLine("What is your year of birth written xxxx?");
-        response = Convert.ToInt32( Console.ReadLine() );
-        Console.WriteLine("Have you had a birthday? Type yes=1 or no=2.");
-        responsetwo = Convert.ToInt32(Console.ReadLine() );
-
-
-        Console.ReadKey(true);
+        yearOfBirth = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Have you had a birthday? Type yes or no.");
+        birthdayTHisYear = Console.ReadLine();
     }
-}
+
+    }
