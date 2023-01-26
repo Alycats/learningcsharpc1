@@ -86,7 +86,7 @@ static void Multiplication()
     Console.WriteLine("Enter the number");
     num = Convert.ToInt32(Console.ReadLine() );
 
-    for (int i= 0; i<=12; i++)
+    for (int i= 1; i<=12; i++)
     {
         result = num * i;
         Console.WriteLine($"{num}*{i}={result}");
