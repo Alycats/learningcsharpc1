@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alyclark/Downloads/Coding 2023 Again/learningcsharpc1/learningcsharpc1.csproj": {}
+  },
+  "projects": {
+    "/Users/alyclark/Downloads/Coding 2023 Again/learningcsharpc1/learningcsharpc1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alyclark/Downloads/Coding 2023 Again/learningcsharpc1/learningcsharpc1.csproj",
+        "projectName": "learningcsharpc1",
+        "projectPath": "/Users/alyclark/Downloads/Coding 2023 Again/learningcsharpc1/learningcsharpc1.csproj",
+        "packagesPath": "/Users/alyclark/.nuget/packages/",
+        "outputPath": "/Users/alyclark/Downloads/Coding 2023 Again/learningcsharpc1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alyclark/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
